@@ -1,0 +1,61 @@
+/* Image Styling */
+.product-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Button Styling */
+.buy-now-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buy-now-button:hover {
+    background-color: #0056b3;
+}
+
+/* Product Card Layout */
+.product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.product-name,
+.product-price,
+.product-description {
+    margin: 10px 0;
+}
+
+/* Quantity Section Styling */
+.quantity-section {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.quantity-section label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.quantity-section input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
